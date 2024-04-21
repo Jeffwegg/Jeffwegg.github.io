@@ -1,0 +1,80 @@
+h1 {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+body {
+    font-size: 16px;
+}
+
+main {
+    margin:0 auto;
+    width 90%;
+    background: dimgray;
+}
+
+.computer {
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.interface {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+figure {
+    display: inline-block;
+}
+
+p, ol {
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+ol {
+    padding-left: 30px;
+}
+
+article {
+    columns: 2;
+    column-gap: 1em;
+}
+
+@media screen and (max-width:800px) {
+    .computer {
+    width: 90%;
+    margin: 20px;
+    }
+
+@media screen and (max-width:550px) {
+    .computer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+article {
+    columns: 1;
+    margin: 12px;
+}
+
+p, ol {
+    font-size: 1em;
+    padding: 10px;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+ol {
+    padding-left: 30px;
+}

@@ -1,0 +1,298 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: #1B2B4B;
+    opacity: 1;
+}
+
+main {
+    margin: 0 auto;
+}
+
+p {
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+Header {
+    top: 29px;
+    left: 33px;
+    background: #D5AB5B;
+    border: 30px double #1B2B4B;
+    opacity: 1;
+    overflow: hidden;
+} 
+
+h1 {
+    font-family: 'ltc-broadway-engraved', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    top: 77px;
+    left: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #1B2B4B;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.section-1 {
+    padding: 40px;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    overflow: hidden;
+    display: flex;
+}
+
+.text-1 p {
+    margin: 0;
+    column-gap: 50px;
+    text-align: left;
+}
+
+.text-1 {
+    margin: 0;
+    flex: 2;
+    column-count: 2;
+    column-gap: 50px;
+    text-align: left;
+}
+
+.dupas {
+    width: auto;
+    height: 300px;
+    margin-left: 40px;
+    border: 5px solid #FFFFFF;
+    flex: 1;
+}
+
+#dupas {
+    padding-left: 40px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #D5AB5B;
+}
+
+.section-2 {
+    top: 791px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 30px solid #707070;
+    border-style: double;
+    opacity: 1;
+    font-family: 'futura-pt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+}
+
+.pursell {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.cassandre {
+    height: auto;
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    display: block;
+}
+
+.harris {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.gesmar {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.section-3 {
+    padding-top: 50px;
+    font-family: 'futura-pt', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+
+.text-3 {
+    margin: 0;
+    padding: 40px;
+}
+
+.empire {
+    width: 95%;
+    height: auto;
+    border: 5px solid #FFFFFF;
+    flex: 1;
+}
+
+.section-4 {
+    padding: 40px;
+    column-count: 3;
+    text-align: left;
+    font-family: 'futura-pt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 30px solid #707070;
+    border-style: double;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+
+.images {
+    display: flex;
+}
+
+.christ {
+    height: auto;
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    flex: 1;
+}
+
+.chrysler {
+    height: auto;
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    flex: 1;
+}
+
+.sources {
+    font-family: 'futura-pt', sans-serif;
+}
+        
+.sources a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+        
+.sources a:visited {
+    color: #FFFFFF;
+}
+        
+.sources a:active {
+    color: #FFFFFF;
+}
+        
+.sources a:hover {
+    color: #D5AB5B;
+}    
+
+footer {
+    font-family: 'futura-pt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #D5AB5B;
+    padding: 20px;
+    width: auto;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+
+        font-size: 35px;
+    }
+
+    header {
+        border: 20px double #1B2B4B;
+    }
+
+    .text-1 p {
+        margin: 0;
+        flex: 2;
+        column-count: 1;
+        column-gap: 50px;
+        text-align: left;
+    }
+
+    .section-2 {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+
+    .section-3 {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+
+    .section-4 {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        padding: 20px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+}
+    
+}
+
+@media only screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    header {
+        border: 10px double #1B2B4B;
+    }
+    
+    .section-1 {
+        padding: 40px;
+        font-family: 'futura-pt', sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-2 {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+
+    .text-3, .text-4 {
+        padding: 10px;
+    }
+
+    .section-4 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+}
