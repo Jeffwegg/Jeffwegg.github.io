@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD435/multiplepagesite/whatIsCompost/styles/style.css">
+    <title>What is Compost?</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="/GD435/multiplepagesite/index.html">Home</a></li>
+            <li><a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a></li>
+            <li><a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a></li>
+            <li><a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/references/references.html">Sources and References</a></li>
+        </ul>
+
+        <div><img class="logo" src="images/logo.png" alt="logo"></div>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="/GD435/multiplepagesite/index.html">Home</a>
+        <a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a>
+        <a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a>
+        <a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a>
+        <a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a>
+        <a href="/GD435/multiplepagesite/references/references.html">Sources and References</a>
+    </div>
+
+<div class="maincontent">
+
+    <div>
+        <h1>What is Compost?</h1>
+        <p>Compost is an organic material that is produced from the decomposition of food scraps and yard waste.</p>
+    </div>    
+    <div>
+        <h1>Composting Basics</h1>
+        <p>Composting requires equal parts of brown and green material with the addition of water to fuel the composting process. Brown materials provide carbon and green materials provide nitrogen, this along with moisture is what is required to break down organic matter. Composting can actually give off heat due to the chemical reactions happening in the compost.</p>
+    </div>
+    <div>
+        <h1>Benefits of Composting</h1>
+        <ul>
+            <li>Enriches soil</li>
+            <li>Reduces the need for chemical fertilizers</li>
+            <li>Reduces methan emissions from landfills</li>
+            <li>Lowers your cardon footprint</li>
+            <li>Encourages production of beneficial bacteria and fungi</li>
+        </ul>
+    </div>
+        <h1>Composting Ingredients</h1>
+    <div class="ingredients">    
+        <figure><img class="green" src="images/green.jpg" alt="Green Ingredients">
+            <figcaption>
+            <h2>Green Material</h2>
+            <p>Green material consists of fresh grass clippings, fruit and vegetable waste, and coffee grounds</p>
+            </figcaption>
+        </figure>
+
+        <figure><img class="brown" src="images/brown.jpg" alt="Brown Ingredients">
+            <figcaption>
+            <h2>Brown Material</h2>
+            <p>Brown material consists of dead plant matter such as leaves, branches and twigs.</p>
+            </figcaption>
+        </figure>
+
+        <figure><img class="water" src="images/water.jpg" alt="Water">
+            <figcaption>
+            <h2>Water</h2>
+            <p>Water helps activate the composting process.</p>
+            </figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <h1>What to compost</h1>
+        <div>
+            <button id="modalBtn" class="button">View List Here</button>
+
+            <div id="simpleModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="closeBtn">&times;</span>
+                        <h3>Materials</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h2>What to Compost</h2>
+                        <ul>
+                            <li>Fruits and vegetables</li>
+                            <li>Eggshells</li>
+                            <li>Coffee grounds and filters</li>
+                            <li>Tea bags</li>
+                            <li>Nut shells</li>
+                            <li>Shredded newspaper</li>
+                            <li>Cardboard</li>
+                            <li>Paper</li>
+                            <li>Yard trimmings</li>
+                            <li>House plants</li>
+                            <li>Hay and straw</li>
+                            <li>Leaves</li>
+                            <li>Sawdust</li>
+                            <li>Woodchips</li>
+                            <li>Cotton and wool rags</li>
+                            <li>Dryer and vacuum cleaner lint</li>
+                            <li>Hair and fur</li>
+                            <li>Fireplace ashes</li>
+                        </ul>
+                        <h2>What NOT to Compost</h2>
+                        <ul>
+                            <li>Black walnut tree leaves or twigs</li>
+                            <li>Coal or charcoal ash</li>
+                            <li>Dairy products and eggs</li>
+                            <li>Diseased or insect ridden plants</li>
+                            <li>Fats, grease, lard, or oils</li>
+                            <li>Meat or fish bones and scraps</li>
+                            <li>Pet waste</li>
+                            <li>Yard trimmings treated with chemicals</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        
+            
+        </div>
+    </div>
+
+</div>
+
+<div>
+    <a class="arrow" href="#">&#8679;</a>
+</div>
+
+    <script src="main.js"></script>
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>
+</body>
+<footer>
+    <section class="copyright">© 2020 J. Weggenmann</section>
+    <section class="logos">
+        <a href="https://www.facebook.com"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+        <a href="https://www.snapchat.com"><img class="snapchat" src="images/snapchat.png" alt="snapchat"></a>
+    </section>
+</footer>  
+</html>

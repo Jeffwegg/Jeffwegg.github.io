@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD435/multiplepagesite/styles/style.css">
+    <title>Composting</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="/GD435/multiplepagesite/index.html">Home</a></li>
+            <li><a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a></li>
+            <li><a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a></li>
+            <li><a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/references/references.html">Sources and References</a></li>
+        </ul>
+
+        <div><img class="logo" src="images/logo.png" alt="logo"></div>
+    </nav>
+
+<div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="/GD435/multiplepagesite/index.html">Home</a>
+    <a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a>
+    <a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a>
+    <a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a>
+    <a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a>
+    <a href="/GD435/multiplepagesite/references/references.html">Sources and References</a>
+</div>
+
+<div class="maincontent">
+
+    <div class="mainImageContainer">
+        <img class="mainImage" src="images/homepageImage.jpg" alt="Main Image">
+        <div class="mainText">
+            <h1>Composting</h1>
+            <p>Composting is an easy environmentally friendly way to dispose of waste that also produces a beneficial end product that can be used around the house.</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="what_btn"><a class="main_buttons" href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a></button>
+        <button class="how_btn"><a class="main_buttons" href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a></button>
+        <button class="supplies_btn"><a class="main_buttons" href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a></button>
+        <button class="mature_btn"><a class="main_buttons" href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a></button>
+        <button class="references_btn"><a class="main_buttons" href="/GD435/multiplepagesite/references/references.html">Sources</a></button>
+    </div>
+</div>
+
+<div>
+    <a class="arrow" href="#">&#8679;</a>
+</div>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>
+</body>
+<footer>
+    <section class="copyright">© 2020 J. Weggenmann</section>
+    <section class="logos">
+        <a href="https://www.facebook.com"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+        <a href="https://www.snapchat.com"><img class="snapchat" src="images/snapchat.png" alt="snapchat"></a>
+    </section>
+</footer>  
+</html>

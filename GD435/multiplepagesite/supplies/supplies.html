@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD435/multiplepagesite/supplies/styles/style.css">
+    <title>Composting Supplies</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="/GD435/multiplepagesite/index.html">Home</a></li>
+            <li><a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a></li>
+            <li><a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a></li>
+            <li><a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/references/references.html">Sources and References</a></li>
+        </ul>
+
+        <div><img class="logo" src="images/logo.png" alt="logo"></div>
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="/GD435/multiplepagesite/index.html">Home</a>
+        <a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a>
+        <a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a>
+        <a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a>
+        <a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a>
+        <a href="/GD435/multiplepagesite/references/references.html">Sources and References</a>
+    </div>
+    
+<div class="maincontent">
+
+    <div>
+        <h1>Types of Compost Bins</h1>
+    </div>
+
+    <div class="allsupplies">
+        <figure><img src="/GD435/multiplepagesite/supplies/images/diy.jpg" alt="diy" class="supplies1">
+            <figcaption>
+                <h2>DIY Compost Bins</h2>
+                <p>The least expensive method is to build one yourself from a heavy-duty garbage can. Simply drill 1.5-cm aeration holes in rows at roughly 15-cm intervals around the can. Fill the can with a mixture of high-carbon and high-nitrogen materials (see our table above). Stir the contents occasionally to avoid anaerobic pockets and to speed up the composting process. If the lid is secure, the bin can be laid on its side and rolled; a length of 2″ cedar ( use a 2×2 or a 2×4) can be bolted to the inside, running top to bottom, to help flip the material. Without this, the contents tend to stay in place while the bin is rolled.</p>
+                <button class="diy_btn"><a class="amazon_buttons" href="https://tinyurl.com/y5uk3ror">DIY Compost Bin Instructions</a></button>
+            </figcaption>
+        </figure>
+
+        <figure><img src="/GD435/multiplepagesite/supplies/images/standard.jpg" alt="standard" class="supplies2">
+            <figcaption>
+                <h2>Standard Compost Bins</h2>
+                <p>Another option is a compost bin, sometimes called a ‘compost digester’. Compost bins are enclosed on the sides and top, and open on the bottom so they sit directly on the ground. These are common composting units for homes in residential areas where bins tend to be smaller, yet enclosed enough to discourage pests. These bins are inexpensive, but it is difficult to turn the compost, so it can take several months to produce compost. These bins are thin-walled plastic, and may chip along the edges, especially during a freeze.</p>
+                <button class="standard_btn"><a class="amazon_buttons" href="https://tinyurl.com/y5do2jho">Compost Bin on Amazon</a></button>
+            </figcaption>
+        </figure>
+
+        <figure><img src="/GD435/multiplepagesite/supplies/images/tumbler.jpg" alt="tumbler" class="supplies3">
+            <figcaption>
+                <h2>Compost Tumblers</h2>
+                <p>The most efficient enclosed bin method is the compost tumbler. It’s possible to maintain relatively high temperatures in drum/tumbler systems, both because the container acts as insulation and because the turning keeps the microbes aerated and active. Some designs provide an interior “paddle” or “aeration spikes” which help bring air into the compost and prevent clumping of the composting materials. Other designs have holes on the ends for aeration. This greatly speeds up the composting process.</p>
+                <button class="tumbler_btn"><a class="amazon_buttons" href="https://tinyurl.com/y68g35u4">Compost Tumbler on Amazon</a></button>
+            </figcaption>
+        </figure>
+        
+        <figure><img src="/GD435/multiplepagesite/supplies/images/countertop.jpg" alt="countertop" class="supplies4">
+            <figcaption>
+                <h2>Countertop Compost Bins</h2>
+                <p>You can also find small compost bins that sit on your countertop. These can be used as small compost bins or you can use them to store food scraps for a short time that need to be taken to your compost bin.</p>
+                <button class="countertop_btn"><a class="amazon_buttons" href="https://tinyurl.com/y3rnspxu">Countertop Bin on Amazon</a></button>
+            </figcaption>
+        </figure>
+    </div>
+
+</div>
+
+<div>
+    <a class="arrow" href="#">&#8679;</a>
+</div>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>
+    
+</body>
+<footer>
+    <section class="copyright">© 2020 J. Weggenmann</section>
+    <section class="logos">
+        <a href="https://www.facebook.com"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+        <a href="https://www.snapchat.com"><img class="snapchat" src="images/snapchat.png" alt="snapchat"></a>
+    </section>
+</footer>  
+</html>

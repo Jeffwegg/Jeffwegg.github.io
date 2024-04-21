@@ -1,0 +1,313 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+}
+
+h1, h2 {
+    color: #9E3E26;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.maincontent {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.navbar{
+    background-color: #2B604E;
+    overflow: hidden;
+    height: 63px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-nav a{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 24px;
+}
+
+.navbar-nav a:visited{
+    color: #ffffff;
+}
+
+.navbar ul{
+    margin: 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    color: #000;
+    transition: 0.5s;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #2B604E;
+}
+
+.side-nav a:visited {
+    color: #ffffff;
+}
+
+.side-nav a:visited:hover {
+    color: #2b604e;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.logo {
+    z-index: 1;
+    height: 63px;
+    width: auto;
+    float: right;
+    padding-right: 10px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    width: 100%;
+}
+
+.ingredients {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+}
+
+.green, .brown, .water {
+    width: 100%;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    padding-left: 10px;
+    transition: .3s;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+a:visited {
+    color: #2B604E;
+}
+
+.arrow {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #2b604e;
+    bottom: 50px;
+    right: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: hsla(160, 38%, 27%, 0.4);
+}
+
+a.arrow:link {
+    color: #ffffff;
+}
+
+a.arrow:hover {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px;
+    font-weight: 1000;
+    transition: .3s;
+}
+
+a.arrow:visited {
+    color: #ffffff;
+}
+
+@media(min-width:950px) {
+    .open-slide {
+        display: none;
+    }
+}
+
+@media(max-width:950px) {
+    .navbar-nav{
+         display: none;
+     }
+
+ }
+
+@media(max-width:650px) {
+    .navbar-nav{
+        display: none; 
+    }
+
+    .ingredients {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .green, .brown, .water {
+        width: 100%;
+    }    
+}
+
+.button {
+    background-color: #2B604E;
+    padding: 1em 2em;
+    color: #ffffff;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #333333;
+    transition: 0.5s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #f3f3f3;
+    margin: 30px auto;
+    width: 300px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.modal-header h2, .modal-footer h3 {
+    margin: 0;
+}
+
+.modal-header {
+    background-color: #2B604E;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.modal-body {
+    padding: 10px 20px;
+}
+
+.modal-footer {
+    background-color: #2B604E;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.closeBtn {
+    color: #ffffff;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+footer {
+    background-color: #2B604E;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.copyright {
+    float: left;
+    padding-right: 10px;
+}
+
+.facebook, .snapchat {
+    float: right;
+    height: auto;
+    width: 20px;
+}
+
+.twitter {
+    float: right;
+    height: auto;
+    width: 20px;
+}

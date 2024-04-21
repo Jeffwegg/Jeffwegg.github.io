@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD435/multiplepagesite/howToCompost/styles/style.css">
+    <title>How to Compost</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="/GD435/multiplepagesite/index.html">Home</a></li>
+            <li><a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a></li>
+            <li><a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a></li>
+            <li><a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/references/references.html">Sources and References</a></li>
+        </ul>
+
+        <div><img class="logo" src="images/logo.png" alt="logo"></div>
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="/GD435/multiplepagesite/index.html">Home</a>
+        <a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a>
+        <a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a>
+        <a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a>
+        <a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a>
+        <a href="/GD435/multiplepagesite/references/references.html">Sources and References</a>
+    </div>
+
+<div class="maincontent">
+
+    <div>
+        <h1>How to Compost at Home</h1>
+        <p>Composting at home can be done many ways, with or without high start up costs. It can also be done in small spaces inside or outside.</p>
+    </div>
+
+    <div class="allsteps">
+        <figure><img src="/GD435/multiplepagesite/howToCompost/images/step1.jpg" alt="step1" class="step1">
+            <figcaption>
+            <h2>Step One</h2>
+            <p>Mix equal parts of brown and green materials. You do not want to have large pieces of material.</p>
+            </figcaption>
+        </figure>
+
+        <figure><img src="/GD435/multiplepagesite/howToCompost/images/step2.jpg" alt="step2" class="step2">
+            <figcaption>
+            <h2>Step Two</h2>
+            <p>Moisten the materials as you add them so everything will be wet.</p>
+            </figcaption>
+        </figure>
+
+        <figure><img src="/GD435/multiplepagesite/howToCompost/images/step3.jpg" alt="step3" class="step3">
+            <figcaption>
+            <h2>Step Three</h2>
+            <p>Turn your compost pile occasionally to mix the materials and help with even composting.</p>
+            </figcaption>
+        </figure>
+        
+        <figure><img src="/GD435/multiplepagesite/howToCompost/images/step4.jpg" alt="step4" class="step4">
+            <figcaption>
+            <h2>Step Four</h2>
+            <p>Make sure the material stays moist, but not too wet to get optimal results.</p>
+            </figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <h1>Composting Methods</h1>
+    </div>
+    <div class="method">
+        <figure><img src="/GD435/multiplepagesite/howToCompost/images/outsideCompostBin.jpg" alt="outside" class="outside">
+            <figcaption>
+            <h2>Outdoor Composting</h2>
+            <p>Backyard composting can be done in a pile or a bin. There are cheap DIY options or more expensive tumbling compost bins. Ideally you want to have your compost bin/pile in a dry, shady spot. Also having it close to a water source is beneficial.</p>
+            </figcaption>
+        </figure>
+
+        <figure><img src="/GD435/multiplepagesite/howToCompost/images/insideCompstBin.jpg" alt="inside" class="inside">
+            <figcaption>
+            <h2>Indoor Composting</h2>
+            <p>Composting can be done indoors with specially designed compost bins or DIY bins. When composting indoors, make sure you keep up with rotating the contents and keeping an even ratio of materials. If the materials are kept in the correct ratio, composting shouldn’t have a smell or attract pests. This also applies to outdoor composting.</p>
+            </figcaption>
+        </figure>
+    </div>
+
+</div>
+
+<div>
+    <a class="arrow" href="#">&#8679;</a>
+</div>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>
+</body>
+<footer>
+    <section class="copyright">© 2020 J. Weggenmann</section>
+    <section class="logos">
+        <a href="https://www.facebook.com"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+        <a href="https://www.snapchat.com"><img class="snapchat" src="images/snapchat.png" alt="snapchat"></a>
+    </section>
+</footer>  
+</html>

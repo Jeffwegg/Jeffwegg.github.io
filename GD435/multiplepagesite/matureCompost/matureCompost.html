@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD435/multiplepagesite/matureCompost/styles/style.css">
+    <title>Mature Compost</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="/GD435/multiplepagesite/index.html">Home</a></li>
+            <li><a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a></li>
+            <li><a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a></li>
+            <li><a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a></li>
+            <li><a href="/GD435/multiplepagesite/references/references.html">Sources and References</a></li>
+        </ul>
+
+        <div><img class="logo" src="images/logo.png" alt="logo"></div>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="/GD435/multiplepagesite/index.html">Home</a>
+        <a href="/GD435/multiplepagesite/whatIsCompost/whatIsCompost.html">What is Compost?</a>
+        <a href="/GD435/multiplepagesite/howToCompost/howToCompost.html">How to Compost</a>
+        <a href="/GD435/multiplepagesite/supplies/supplies.html">Supplies</a>
+        <a href="/GD435/multiplepagesite/matureCompost/matureCompost.html">Mature Compost</a>
+        <a href="/GD435/multiplepagesite/references/references.html">Sources and References</a>
+    </div>
+
+<div class="maincontent">    
+
+    <div>
+        <h1>Mature Compost</h1>
+    </div>
+    <div class="allmature">
+            <figure><img src="/GD435/multiplepagesite/matureCompost/images/hands.jpg" alt="hands" class="hands">
+                <figcaption>
+                    <h2>How to know when your compost is finished.</h2>
+                    <p>You will know when your compost is finished when it has a crumbly, smooth texture. Depending on what you add to your pile, there may also be woody or fibrous pieces. There shouldn’t be anything recognizable—like intact peelings or leaves. A few avocado pits or corncobs are normal, since these take longer to break down. Remove them from your finished compost and return to the pile to break down further. You also want your compost to have a dark, rich color with a sweetly fragrant, loamy smell (like a forest on a wet day). Traces of ammonia or sour odors indicate your compost needs more time to mature.</p>
+                </figcaption>
+            </figure>
+    
+            <figure><img src="/GD435/multiplepagesite/matureCompost/images/compostUses.jpg" alt="compostUses" class="compostUses">
+                <figcaption>
+                    <h2>Uses for Compost</h2>
+                    <p>Here are some uses for your compost once it has fully matured.</p>
+                    <ul>
+                        <li>Mulch</li>
+                        <li>DIY potting soil: 1 part compost, 1 part vermiculite, 1 part topsoil</li>
+                        <li>Compost tea: brew your compost into a liquid concentrate for plants</li>
+                        <li>Feed fall perennials</li>
+                        <li>Feed spring bulbs</li>
+                        <li>Use on lawns</li>
+                        <li>Top garden beds</li>
+                        <li>Fertilize fruit trees</li>
+                        <li>Feed container plants</li>
+                        <li>Use in vegetable gardens</li>
+                    </ul>
+                </figcaption>
+            </figure>
+    </div>
+
+</div>    
+
+<div>
+    <a class="arrow" href="#">&#8679;</a>
+</div>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>   
+</body>
+<footer>
+    <section class="copyright">© 2020 J. Weggenmann</section>
+    <section class="logos">
+        <a href="https://www.facebook.com"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+        <a href="https://www.snapchat.com"><img class="snapchat" src="images/snapchat.png" alt="snapchat"></a>
+    </section>
+</footer>  
+</html>

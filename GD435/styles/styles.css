@@ -1,0 +1,33 @@
+body {
+    color: #d14411;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px;
+	background-color: #d3d3d3;
+	padding-left: 20%;
+	padding-top: 50px;
+}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	list-style: none;
+}
+
+a:link {
+	color: #2f4f4f;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:visited {
+	text-decoration: none;
+	font-size: 20px;
+	color: #2f4f4f;
+}
+
+
+a:hover {
+	color: #d14411;
+	font-weight: bold;
+	transition: 0.4s;
+	padding-left: 10px;
+}
